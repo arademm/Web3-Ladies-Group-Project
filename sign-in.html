@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Rock+Salt&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Sign Up</title>
+    <style>
+        div.container {
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+
+        form {
+            width: 300px;
+            padding: 50px;
+            border-radius: 10px;
+            background-color: #191818;
+            border: 2px solid #d9d9d9;
+            color: #d9d9d9;
+        }
+
+        .ticket {
+            font-family: Poppins;
+            text-align: center;
+            line-height: 44px;
+            font-size: 24px;
+            font-weight: 400;
+            color: #D4550B;
+            margin-top: -20px;
+        }
+
+        .input-form {
+            width: 300px;
+            height: 30px;
+            border-radius: 10px;
+            border: 1px solid grey;
+            background-color: grey;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .username {
+            font-family: Poppins;
+            line-height: 44px;
+            font-size: 12px;
+            font-weight: 200;
+            color: #d9d9d9;
+        }
+
+        .password {
+            font-family: Poppins;
+            line-height: 44px;
+            font-size: 12px;
+            font-weight: 200;
+            color: #d9d9d9;
+        }
+
+        .tick-box {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            padding-block: -50px;
+        }
+
+
+        .p-rem {
+            width: 22px;
+            height: 20px;
+            margin-right: 5px;
+
+        }
+
+        .connect {
+            text-transform: capitalize;
+            background-color: #D4550B;
+            border-radius: 50px;
+            width: 100px;
+            padding-block: 8px;
+            font-family: Poppins;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 200;
+            margin-block: 30px;
+            border: 1px solid #D4550B;
+        }
+
+        /* placing the icon */
+        .user {
+            position: absolute;
+            margin-top: 50px;
+            margin-left: -40px;
+            font-size: 20px;
+            color: #D4550B;
+            
+        }
+
+        .lock{
+            position: absolute;
+            margin-top: 50px;
+            margin-left: -40px;
+            font-size: 20px;
+            color: #D4550B;
+            
+        }
+    </style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="">
+            <h2 class="ticket">TicketMynt</h2>
+
+            <h4>Sign Up</h4>
+            <label for="username" class="username">Username</label>
+            <span class="fa fa-user user"></span><input type="text" class="input-form">       
+            <label for="password" class="password">Password</label>
+            <span class="fa fa-lock lock"></span><input type="password" class="input-form">
+
+            <p><button class="p-rem"></button>Remember</p>
+
+
+            <button class="connect">connect with</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
