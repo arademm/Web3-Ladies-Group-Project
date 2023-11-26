@@ -61,9 +61,10 @@
             font-size: 16px;
             font-weight: 400;
             padding: 25px;
-          
+
         }
-        .h3-head{
+
+        .h3-head {
             width: 80%;
             padding: auto;
             margin: auto;
@@ -140,7 +141,7 @@
             color: white;
         }
 
-        .arrow-img{
+        .arrow-img {
             width: 15px;
             height: 15px;
             margin-bottom: -2px;
@@ -156,19 +157,12 @@
 
         .cart-h6 {
             color: #4f4c4c;
-            text-align: center;
-            margin-top: 70px;
-            font-family: Poppins;           
+            text-align: left;
+            margin-top: 30px;
+            margin-left: 20px;
+            font-family: Poppins;
             font-size: 16px;
             font-weight: 400;
-        }
-
-        .sh-cart {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 5%;
-            margin-top: 20px;
         }
 
         .sample-text {
@@ -206,6 +200,16 @@
             padding-top: 15px;
         }
 
+        .grid1 {
+            width: 350px;
+            height: 100px;
+            margin-left: 20px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+        }
+
         .p-general {
             display: flex;
             margin-left: 10px;
@@ -225,15 +229,6 @@
             margin-inline: 12px;
         }
 
-        .grid-3 {
-            margin-right: 20px;
-        }
-
-        .grid-4 {
-            padding-top: 10px;
-            padding-left: 252px;
-        }
-
         .plus-button {
             border: 1px solid #F57328;
             background-color: #F57328;
@@ -242,6 +237,53 @@
             width: 24px;
             margin-left: 12px;
         }
+
+        .grid2{
+            padding-top: 5px;
+        }
+
+        .grid-3 {
+            margin-right: 20px;
+        }
+
+        .grid-4 {
+            margin-top: -20px;
+            padding-left: 252px;
+        }
+
+        .grid-5{
+            margin-top: -20px;
+            padding-left: 310px;
+        }
+
+        .p-general2 {
+            display: flex;
+            margin-left: 30px;
+            color: #d9d9d9;
+            text-transform: capitalize;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 200;
+        }
+
+        .minus {
+            background-color: #6D6767;
+            border: 1px solid #6D6767;
+            border-radius: 5px;
+            height: 25px;
+            width: 24px;
+            margin-inline: 12px;
+        }
+
+        .plus {
+            border: 1px solid #F57328;
+            background-color: #F57328;
+            border-radius: 5px;
+            height: 25px;
+            width: 24px;
+            margin-left: 12px;
+        }
+
 
         .hr-line {
             width: 350px;
@@ -256,17 +298,17 @@
             height: 116vh;
             display: flex;
             justify-content: center;
-            
+
         }
     </style>
 </head>
 
 <body style="background-color: black;">
     <div class="h3-head">
-    <h3 id="heading3">
-        buy tickets
-    </h3>
-</div>
+        <h3 id="heading3">
+            buy tickets
+        </h3>
+    </div>
     <div class="Purchase-form">
 
         <div class="box">
@@ -307,15 +349,22 @@
                 </div>
                 <hr class="hr-line">
 
-                <div class="grid-4">
-                    <button class="minus-button"><img src="./images/minus.png" alt="" width="15px"></button>
+                <div class="grid2">
+                    <div class="p-general2">
+                        <p>vip</p>
+                    </div>
 
-                    <img src="./images/0.png" alt="" width="6px">
+                    <div class="grid-4">
+                        <button class="minus"><img src="./images/minus.png" alt="" width="15px"></button>
 
-                    <button class="plus-button"><img src="./images/plus.png" alt="" width="15px"></button>
+                        <img src="./images/0.png" alt="" width="6px" height="10px">
+
+                        <button class="plus"><img src="./images/plus.png" alt="" width="15px"></button>
+                    </div>
                 </div>
 
-                <button class="buy-ticket">buy tickets <img src="./images/arrow-up-right.png" alt="" class="arrow-img"></button>
+                <button class="buy-ticket">buy tickets <img src="./images/arrow-up-right.png" alt=""
+                        class="arrow-img"></button>
 
             </div>
 
@@ -326,10 +375,42 @@
                 <br>
 
                 <h6 class="cart-h6">
-                    Add tickets to your cart
+                    order summary
                 </h6>
+                <div class="grid1">
+                    <div class="p-general">
+                        <p>1 &nbsp; &nbsp;  X  &nbsp; &nbsp;general admission</p>
+                    </div>
 
-                <img src="./images/shopping-cart.png" alt="" class="sh-cart">
+
+                    <div class="grid-3">
+                        <img src="./images/0.png" alt="" width="10px"> 
+                        <img src="./images/0.png" alt="" width="2px"> 
+                        <img src="./images/0.png" alt="" width="10px"> 
+                        <img src="./images/0.png" alt="" width="10px"> 
+                        <!-- <button class="plus-button"><img src="./images/plus.png" alt="" width="15px"></button> -->
+
+                       
+                    </div>
+
+                </div>
+
+                <hr class="hr-line">
+
+                <div class="grid2">
+                    <div class="p-general2">
+                        <p>Total</p>
+                    </div>
+
+                    <div class="grid-5">
+                        <img src="./images/0.png" alt="" width="10px"> 
+                        <img src="./images/0.png" alt="" width="2px"> 
+                        <img src="./images/0.png" alt="" width="10px"> 
+                        <img src="./images/0.png" alt="" width="10px"> 
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
