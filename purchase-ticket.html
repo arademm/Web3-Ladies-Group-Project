@@ -18,44 +18,326 @@
         * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+
+        .Purchase-form {
+            width: 80%;
+            height: 100%;
+            display: flex;
+            margin: auto;
+            padding: auto;
+            border: 1px solid #6D6767;
         }
 
         .first {
-            width: 50vw;
-            height: 100px;
-            background-color: #c4c4;
+            width: 500px;
+            height: 700px;
             float: left;
+            margin-top: 5px;
 
         }
 
         .second {
-            width: 50vw;
-            height: 100px;
-            background-color: blueviolet;
+            width: 500px;
+            height: 700px;
             float: right;
+            margin-top: 5px;
+        }
 
+        .vertical {
+            border-left: 1px solid #6D6767;
+            position: absolute;
+            left: 48%;
+            height: 720px;
+        }
+
+        #heading3 {
+            text-align: center;
+            text-transform: capitalize;
+            color: #d9d9d9;
+            font-family: Poppins;
+            line-height: 44px;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 25px;
+          
+        }
+        .h3-head{
+            width: 80%;
+            padding: auto;
+            margin: auto;
+            justify-content: space-evenly;
+            align-content: center;
+            border: 1px solid #6D6767;
+            background-color: #191818;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+
+        .p-ticket {
+            font-family: Poppins;
+            line-height: 44px;
+            font-size: 12px;
+            font-weight: 500;
+            color: #d9d9d9;
+            padding-top: 50px;
+            margin-left: 30px;
+            word-wrap: break-word;
+            width: 26em;
+        }
+
+        .forms {
+            width: 300px;
+            padding: 12px 20px;
+            margin-left: 5px;
+            display: block;
+            background-color: transparent;
+            border-radius: 5px;
+        }
+
+        .input-form {
+            width: 350px;
+            height: 40px;
+            border-radius: 10px;
+            border: 1px solid #d9d9d9;
+            background-color: #191818;
+            margin-left: auto;
+            margin-right: auto;
+            color: white;
+        }
+
+        .Wallet-Address {
+            font-family: Poppins;
+            line-height: 44px;
+            font-size: 12px;
+            font-weight: 200;
+            color: #d9d9d9;
+        }
+
+        .Email-Address {
+            font-family: Poppins;
+            line-height: 44px;
+            font-size: 12px;
+            font-weight: 200;
+            color: #d9d9d9;
+        }
+
+
+        .buy-ticket {
+            text-transform: capitalize;
+            background-color: #F57328;
+            border-radius: 50px;
+            width: 120px;
+            padding-block: 8px;
+            font-family: Poppins;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 200;
+            margin-block: 100px;
+            margin-left: 30px;
+            border: 1px solid #F57328;
+            color: white;
+        }
+
+        .arrow-img{
+            width: 15px;
+            height: 15px;
+            margin-bottom: -2px;
+        }
+
+        .hack-img {
+            width: 450px;
+            height: 300px;
+            margin-left: 30px;
+            padding-top: 50px;
+
+        }
+
+        .cart-h6 {
+            color: #4f4c4c;
+            text-align: center;
+            margin-top: 70px;
+            font-family: Poppins;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .sh-cart {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 5%;
+            margin-top: 20px;
+        }
+
+        .sample-text {
+            display: flex;
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+
+        .ticket-h3 {
+            color: #d9d9d9;
+            font-family: Poppins;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            margin-right: 10px;
+            text-transform: capitalize;
+        }
+
+        .ticket-p {
+            color: #F57328;
+            text-transform: capitalize;
+            padding-top: 6px;
+        }
+
+        .grid {
+            width: 350px;
+            height: 100px;
+            border: 1px solid #6D6767;
+            background-color: #191818;
+            border-radius: 8px;
+            margin-left: 20px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+        }
+
+        .p-general {
+            display: flex;
+            margin-left: 10px;
+            color: #d9d9d9;
+            text-transform: capitalize;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 200;
+        }
+
+        .minus-button {
+            background-color: #6D6767;
+            border: 1px solid #6D6767;
+            border-radius: 5px;
+            height: 25px;
+            width: 24px;
+            margin-inline: 12px;
+        }
+
+        .grid-3 {
+            margin-right: 20px;
+        }
+
+        .grid-4 {
+            padding-top: 10px;
+            padding-left: 252px;
+        }
+
+        .plus-button {
+            border: 1px solid #F57328;
+            background-color: #F57328;
+            border-radius: 5px;
+            height: 25px;
+            width: 24px;
+            margin-left: 12px;
+        }
+
+        .hr-line {
+            width: 350px;
+            margin-left: 20px;
+            margin-top: -45px;
+            background-color: #6D6767;
+            border: 1px solid #6D6767;
+        }
+
+        .box {
+            width: 90vw;
+            height: 116vh;
+            display: flex;
+            justify-content: center;
+            
         }
     </style>
 </head>
 
-<body>
+<body style="background-color: black;">
+    <div class="h3-head">
+    <h3 id="heading3">
+        buy tickets
+    </h3>
+</div>
+    <div class="Purchase-form">
 
-    <section>
-        <div>buy tickets</div>
-        <div class="first"></div>
-        <div class="second"></div>
+        <div class="box">
+
+            <div class="first">
+                <p class="p-ticket">
+                    Purchase tickets that serve as NFTs that can be owned and minted. Enter your wallet address or email
+                    address
+                </p>
+                <div class="forms">
+                    <form action="">
+                        <label for="Wallet Address" class="Wallet-Address">Wallet Address</label>
+                        <input type="text" class="input-form" placeholder="0x078h9uvribu9oupytvtytuyuuy"><br>
+                        <label for="Email Address" class="Email-Address">Email Address</label>
+                        <input type="password" class="input-form" placeholder="johndoe@gmail.com">
+                    </form>
+                </div>
+
+                <div class="sample-text">
+                    <h3 class="ticket-h3">Tickets</h3>
+                    <h6 class="ticket-p">free</h6>
+                </div>
+
+                <div class="grid">
+                    <div class="p-general">
+                        <p>general admission</p>
+                    </div>
 
 
-    </section>
+                    <div class="grid-3">
+                        <button class="minus-button"><img src="./images/minus.png" alt="" width="15px"></button>
+
+                        <img src="./images/0.png" alt="" width="6px">
+
+                        <button class="plus-button"><img src="./images/plus.png" alt="" width="15px"></button>
+                    </div>
+
+                </div>
+                <hr class="hr-line">
+
+                <div class="grid-4">
+                    <button class="minus-button"><img src="./images/minus.png" alt="" width="15px"></button>
+
+                    <img src="./images/0.png" alt="" width="6px">
+
+                    <button class="plus-button"><img src="./images/plus.png" alt="" width="15px"></button>
+                </div>
+
+                <button class="buy-ticket">buy tickets <img src="./images/arrow-up-right.png" alt="" class="arrow-img"></button>
+
+            </div>
+
+            <div class="vertical"></div>
+
+            <div class="second">
+                <img src="./images/hacktoberfest1 1.png" alt="" class="hack-img">
+                <br>
+
+                <h6 class="cart-h6">
+                    Add tickets to your cart
+                </h6>
+
+                <img src="./images/shopping-cart.png" alt="" class="sh-cart">
+            </div>
+
+        </div>
+
+    </div>
 
 
-
-
-    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-
-    <i class="fa fa-plus-square-o" aria-hidden="true"></i>
-
-    <i class="fa fa-minus-square-o" aria-hidden="true"></i>
 </body>
 
 </html>
