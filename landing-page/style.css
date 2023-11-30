@@ -8,7 +8,7 @@ body {
     font-weight: 400;
     font-size: 32px;
     line-height: 76.34px;
-    font-family: poppins;
+    font-family: Manrope;
     color: #F57328;
     text-transform: uppercase;
 }
@@ -26,7 +26,7 @@ body {
     font-size: 24px;
     line-height: 32px;
     color: white;
-    font-family: poppins;
+    font-family: Manrope;
     text-transform: capitalize;
 }
 
@@ -49,7 +49,7 @@ header {
     border-radius: 50px;
     width: 120px;
     padding-block: 8px;
-    font-family: Poppins;
+    font-family: Manrope;
     text-align: center;
     font-size: 12px;
     font-weight: 200;
@@ -71,8 +71,8 @@ header {
 
 .h_child {
     font-size: 72px;
-    font-family: poppins;
-    font-weight: 700;
+    font-family: Stoke;
+    font-weight: 500;
     line-height: 108px;
     color: #F57328;
     width: 640px;
@@ -87,7 +87,7 @@ header {
 
 .p_child {
     font-size: 18px;
-    font-family: poppins;
+    font-family: Manrope;
     line-height: 30px;
     font-weight: 300;
     width: 550px;
@@ -109,7 +109,7 @@ header {
     border-radius: 50px;
     width: 135px;
     height: 50px;
-    font-family: Poppins;
+    font-family: Stoke;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -127,7 +127,7 @@ header {
     border-radius: 50px;    
     width: 150px;
     height: 50px;
-    font-family: Poppins;
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 300;
     line-height: 15px;
@@ -142,7 +142,7 @@ header {
     line-height: 32px;
     text-align: center;
     font-weight: 500;
-    font-family: poppins;
+    font-family: Stoke;
     color: white;
     text-transform: capitalize;
     margin-block: 100px;
@@ -166,7 +166,7 @@ header {
 }
 
 .minor_price {
-    font-family: Poppins;
+    font-family: Stoke;
     font-size: 18px;
     line-height: 18px;
     font-weight: 500;
@@ -203,7 +203,7 @@ header {
     border-radius: 50px;    
     width: 140px;
     height: 50px;
-    font-family: Poppins;
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 300;
     line-height: 15px;
@@ -245,7 +245,7 @@ header {
     font-size: 24px;
     line-height: 32px;
     color: white;
-    font-family: poppins;
+    font-family: Stoke;
 }
 
 .hero_sects {
@@ -262,7 +262,7 @@ header {
 
 .h3_child {
     font-size: 72px;
-    font-family: poppins;
+    font-family: Stoke;
     font-weight: 400;
     line-height: 85px;
     color: #F57328;
@@ -278,7 +278,7 @@ header {
 
 .child {
     font-size: 16px;
-    font-family: poppins;
+    font-family: Manrope;
     line-height: 30px;
     font-weight: 500;
     width: 460px;
@@ -309,7 +309,7 @@ header {
 
 .h4_child {
     font-size: 72px;
-    font-family: poppins;
+    font-family: Stoke;
     font-weight: 700;
     line-height: 108px;
     color: white;
@@ -325,7 +325,7 @@ header {
 
 .p2-child {
     font-size: 18px;
-    font-family: poppins;
+    font-family: Manrope;
     line-height: 30px;
     font-weight: 300;
     width: 550px;
@@ -349,7 +349,7 @@ header {
     border-radius: 50px;    
     width: 150px;
     height: 50px;
-    font-family: Poppins;
+    font-family: Stoke;
     font-size: 16px;
     font-weight: 300;
     line-height: 15px;
@@ -362,7 +362,7 @@ header {
 
 
 #reserve {
-    font-family: Poppins;
+    font-family: Stoke;
     text-align: center;
     line-height: 44px;
     font-size: 36px;
@@ -378,7 +378,7 @@ header {
 #reserve_child {
     font-size: 16px;
     line-height: 24px;
-    font-family: Poppins;
+    font-family: Manrope;
     text-align: center;
     font-weight: 500;
     letter-spacing: 0.15px;
@@ -389,7 +389,7 @@ header {
 }
 
 .Topic {
-    font-family: Poppins;
+    font-family: Manrope;
     line-height: 44px;
     font-size: 12px;
     font-weight: 200;
@@ -398,7 +398,7 @@ header {
 
 .Email-Address{
     color: white;
-    font-family: Poppins;
+    font-family: Manrope;
     line-height: 44px;
     font-size: 12px;
     font-weight: 200;
@@ -423,7 +423,7 @@ textarea {
     border-radius: 10px;
     width: 97%;
     height: 40px;
-    font-family: Poppins;
+    font-family: Manrope;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
